@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Food magazine by bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+<style type="text/css">
+/* Extra Small */
+@media(max-width:767px) {
+  div {
+    background-image: none !important;
+    }
+  }
+	body {
+	background-color: #33395d;
+	}
+	.container-fluid {
+		max-width: 1068px;
+	}
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+  }
+		/* Remove the navbar's default margin-bottom and rounded borders */
+		.navbar {
+	margin: 0 auto;
+	border-radius: 0;
+	max-width: 1068px;
+	margin-top: 38px;
+	}
+	.navbar-inverse {
+	 background-color: #33395d;
+	 border: none;
+	}.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #2a315c;
+	}
+	.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+		background-color: #292f51;
+	}
+		.navbar-brand {
+	width : 88px;
+	}
+		.navbar-brand > img {
+	margin-top: -3px !important;
+	}
+	.bloc-1 {
+		background-color: #0bc4d9;
+		background-image: url("images/food-001.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #ffffff;
+	}
+
+	.title-1 {
+		font: 50px "Montserrat", sans-serif;
+		font-weight: 600;
+		line-height: 1.3;
+		color: #ffffff;
+		text-align: right;
+		margin-bottom: 20px;
+	}
+
+	.desc-1 {
+		font: 26px "Crimson Text", sans-serif;
+		font-weight: 300;
+		line-height: 1;
+		color: #ffffff;
+		text-align: right;
+	}
+	.marge-button-1 {
+		text-align: right;
+		padding-bottom: 25px;
+	}
+	.margin-bloc-1 {
+		margin-top: 20px;
+	}
+
+	.title-2 {
+		font: 38px "Montserrat", sans-serif;
+		font-weight: 600;
+		line-height: 1.3;
+		color: #ffffff;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.desc-2 {
+		font: 22px "Crimson Text", sans-serif;
+		font-weight: 300;
+		line-height: 1;
+		color: #ffffff;
+		text-align: center;
+	}
+	.marge-button-2 {
+		text-align: center;
+		padding-bottom: 25px;
+	}
+		.margin-bloc-2 {
+		padding: 12px;
+	}
+
+
+	.bloc-padd {
+		margin-right: 60px;
+		padding-top: 80px;
+	}
+
+	.button-1 {
+		margin-top: 50px;
+		border-radius: 20px;
+		background-color : #e9d036;
+		width: 150px;
+	}
+  .button-8 {
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 150px;
+  }
+	.button-text {
+		font: 18px "Montserrat", sans-serif;
+		font-weight: 500;
+		color: #ffffff;
+		text-align: center;
+	}
+
+	.bloc-2 {
+		height: 800px;
+    background-color: #f09554;
+		background-image: url("images/food-002.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #ffffff;
+	}
+	.bloc-3 {
+		height: 400px;
+    background-color: #edc3d9;
+		background-image: url("images/food-003.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #ffffff;
+	}
+	.bloc-4 {
+		height: 400px;
+    background-color: #636fe7;
+		background-image: url("images/food-004.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #ffffff;
+	}
+	.bloc-5 {
+		height: 400px;
+    background-color: #b0eee1;
+		background-image: url("images/food-005.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #ffffff;
+	}
+		.bloc-6 {
+		height: 464px;
+    background-color: #dbe2ec;
+		background-image: url("images/food-006.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #ffffff;
+	}
+	.bloc-7 {
+		height: 232px;
+    background-color: #01b1ed;
+		background-image: url("images/food-007.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #ffffff;
+	}
+	.bloc-8 {
+		height: 232px;
+    background-color: #3b5a9a;
+		background-image: url("images/food-008.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #ffffff;
+	}
+  .v-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /*border: 1px dashed deeppink;*/
+  }
+  footer {
+    color: #ffffff;
+    padding: 20px 0 20px;
+  }
+</style>
+</head>
+
+<body>
+<div class="container-fluid">
+	<nav class="navbar navbar-inverse">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="#"><img alt="logo de Food-Magazine" src="images/Food-Magazine.svg"></a>
+	</div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+	  <ul class="nav navbar-nav">
+		<li class="active"><a href="#">Home</a></li>
+		<li class="dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+		  <ul class="dropdown-menu">
+			<li><a href="#">Page 1-1</a></li>
+			<li><a href="#">Page 1-2</a></li>
+			<li><a href="#">Page 1-3</a></li>
+		  </ul>
+		</li>
+		<li><a href="#">Page 2</a></li>
+		<li><a href="#">Page 3</a></li>
+	  </ul>
+	</div>
+	</nav>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="bloc-1 margin-bloc-1">
+				<div class="bloc-padd">
+					<div class="title-1">A modern Twist<br />on a Classic</div>
+					<div class="desc-1">Eggs with avocado ans salsa in a<br />soft corn tortilla</div>
+					<div class="marge-button-1"><button type="button" class="btn button-1 button-text">Read More</button></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+			<div class="bloc-2 margin-bloc-2">
+        <div class="v-align">
+				  <div class="title-2">A modern Twist<br />on a Classic</div>
+				  <div class="desc-2">Eggs with avocado ans salsa in a<br />soft corn tortilla</div>
+				  <div class="marge-button-2"><button type="button" class="btn button-1 button-text">Read More</button></div>
+			  </div>
+      </div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			  <div class="row"> <!-- lignes imbriquées (rose) -->
+				  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					  <div class="bloc-3">
+              <div class="v-align">
+					      <div class="title-2">A modern Twist<br />on a Classic</div>
+					      <div class="desc-2">Eggs with avocado ans salsa in a<br />soft corn tortilla</div>
+					      <div class="marge-button-2"><button type="button" class="btn button-1 button-text">Read More</button></div>
+              </div>
+            </div>
+				  </div>
+			  </div>
+			  <div class="row">
+				  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					  <div class="bloc-4"><!-- module search -->
+              <div class="v-align">
+					      <div class="title-2">A modern Twist<br />on a Classic</div>
+					      <div class="desc-2">Eggs with avocado ans salsa in a<br />soft corn tortilla</div>
+					      <div class="marge-button-2"><button type="button" class="btn button-1 button-text">Read More</button></div>
+              </div>
+				    </div>
+          </div>
+				  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					  <div class="bloc-5"><!-- yogourt chia -->
+              <div class="v-align">
+					      <div class="desc-2">Eggs with avocado ans salsa in a<br />soft corn tortilla</div>
+					      <div class="marge-button-2"><button type="button" class="btn button-1 button-text">Read More</button></div>
+              </div>
+            </div>
+			    </div>
+		  </div>
+	  </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="bloc-6">
+          <div class="v-align">
+            <div class="title-2">A modern Twist<br />on a Classic</div>
+            <div class="desc-2">Eggs with avocado ans salsa in a<br />soft corn tortilla</div>
+            <div class="marge-button-2"><button type="button" class="btn button-1 button-text">Read More</button></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="bloc-7">
+          <div class="twitter">A modern Twist<br />on a Classic</div>
+          <div class="marge-button-2"><button type="button" class="btn button-8 button-text">Read More</button></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="bloc-8">
+          <div class="facebook">A modern Twist<br />on a Classic</div>
+          <div class="marge-button-2"><button type="button" class="btn button-8 button-text">Read More</button></div>
+        </div>
+      </div>
+  </div>
+</div>
+<footer class="container-fluid text-center">
+<p>© 2017 Food magazine</p>
+</footer>
+</body>
+</html>
